@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+SQLAlchemy
+pydantic
+jinja2
+pytest
+ruff
+black
+mypy
+httpx
