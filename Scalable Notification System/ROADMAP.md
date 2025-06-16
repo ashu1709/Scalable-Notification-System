@@ -1,17 +1,20 @@
-# 🚀 Project Roadmap
+🚀 Project Roadmap
+✅ Completed Features
+Implemented webhook endpoint with support for topic-based routing
 
-## Features in Progress
-- [x] Webhook endpoint with topic routing
-- [x] Mocked Slack and Email integration
-- [x] Dockerized service
-- [x] Config via .env
+Integrated mocked versions of Slack and Email notification channels
 
-## Future Enhancements
-- [ ] Real Slack API integration
-- [ ] Real email sending via SMTP or service
-- [ ] Admin web panel to list received notifications (FastAPI + Jinja2)
-- [ ] Deploy to Google Cloud Run / Azure App Service
-- [ ] GitHub Actions CI/CD with Docker push
+Containerized the entire application using Docker
 
-_Last updated: 2025-04-16_
+Enabled environment-based configuration using .env variables
 
+🔜 Upcoming Enhancements
+Integrate with the actual Slack API for real-time messaging
+
+Enable real email delivery using SMTP or an external email service
+
+Build an admin interface to display incoming notifications (FastAPI + Jinja2)
+
+Deploy the application to cloud platforms such as Google Cloud Run or Azure App Service
+
+Set up CI/CD pipeline with GitHub Actions, including automated Docker image builds and pushes
